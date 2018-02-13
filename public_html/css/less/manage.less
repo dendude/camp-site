@@ -1,0 +1,388 @@
+.content-header {
+    padding: 15px;
+}
+
+.sidebar-menu li > a > .pull-right-container {
+    margin-top: -10px;
+}
+
+section.content {
+    padding-top: 0;
+}
+
+html,
+body {
+    background: #fff;
+    min-height: 100%;
+    height: auto;
+}
+
+.content-wrapper {
+    padding-bottom: 100px;
+}
+
+.strong {
+    font-weight: bold;
+}
+.cur-p {
+    cursor: pointer;
+}
+
+.row-comment {
+    position: relative;
+    top: -10px;
+    color: #777;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+table.table {
+    th {
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle!important;
+        &.text-left {
+            text-align: left;
+        }
+        &.text-right {
+            text-align: right;
+        }
+    }
+    td {
+        vertical-align: middle!important;
+        img {
+            height: 50px;
+            width: 50px;
+            text-align: center;
+        }
+    }
+
+    td.section-icons {
+        i.glyphicons {
+            font-size: 24px;
+        }
+    }
+}
+
+.grid-summary:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+div.mce-fullscreen {
+    z-index: 9999;
+}
+
+h1.page-title {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px 0;
+}
+
+/* list grid */
+div.grid-view {
+
+    div.grid-summary {
+        text-align: right;
+        margin: 5px 0;
+    }
+    div.grid-pagination {
+        display: table;
+        margin: 0 auto;
+    }
+    .table th {
+        white-space: nowrap;
+    }
+    .table td {
+        line-height: 1.25;
+    }
+
+    // центрирование фильтров
+    input[name$='[id]'],
+    input[name$='[ordering]'] {
+        text-align: center;
+    }
+
+    .row-filters input,
+    .row-filters select {
+        padding: 0 2px;
+        height: 26px;
+        border-radius: 0;
+    }
+
+    // иконки сортировки
+    a.asc:after, a.desc:after {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 1;
+        padding-left: 5px;
+    }
+    a.asc:after {
+        content: "\e113";
+    }
+    a.desc:after {
+        content: "\e114";
+    }
+}
+
+a.btn-add {
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+.manage-menu {
+    list-style: none;
+    display: block;
+    width: 540px;
+    padding: 0;
+    margin: 0 0 0 20px;
+
+    .menu-item {
+        display: block;
+        padding: 0 0 0 3px;
+        clear: both;
+        .btn {
+            margin-right: 3px;
+            float: right;
+        }
+        &:hover {
+            background: #EAEAEA;
+        }
+    }
+
+    .active-0 {
+        color: #888;
+        &:after {
+            content: ' [скрыто]';
+        }
+    }
+
+    &>li {
+        display: block;
+        line-height: 30px;
+        font-weight: bold;
+        a {
+            margin-top: 4px;
+        }
+
+        &>ul {
+            margin: 2px 0 10px 15px;
+            padding: 0;
+            &>li {
+                display: block;
+                line-height: 26px;
+                font-weight: normal;
+                padding: 2px 0;
+                a {
+                    margin-top: 2px;
+                }
+
+                &:first-child>.menu-item>.btn-act-up,
+                &:last-child>.menu-item>.btn-act-down{
+                    display: none;
+                }
+
+                &>ul {
+                    margin: 2px 0 10px 15px;
+                    padding: 0;
+                    &>li {
+                        display: block;
+                        line-height: 26px;
+                        font-weight: normal;
+                        font-size: 12px;
+                        padding: 2px 0;
+                        a {
+                            margin-top: 2px;
+                        }
+
+                        &:first-child>.menu-item>.btn-act-up,
+                        &:last-child>.menu-item>.btn-act-down{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:first-child>.menu-item>.btn-act-up,
+        &:last-child>.menu-item>.btn-act-down{
+            display: none;
+        }
+    }
+}
+
+.form-comment {
+    position: relative;
+    bottom: 10px;
+}
+
+.user-panel > .image > img {
+    height: 45px;
+    width: 45px;
+}
+.sidebar-collapse {
+    .user-panel > .image > img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/* forms */
+div.separator {
+    height: 15px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+span.required,
+div.required label:after {
+    font-weight: bold;
+    content: " *"!important;
+    color: #D33;
+}
+div.help-block {
+    margin-bottom: 0;
+}
+
+label {
+    cursor: pointer;
+
+    &>[class^=icheckbox_],
+    &>[class^=iradio_]{
+        display: block;
+        float: left;
+        margin-right: 10px;
+        background-color: #fff;
+    }
+}
+
+textarea {
+    resize: vertical;
+    min-height: 70px;
+    max-height: 300px;
+}
+
+.fa {
+    position: relative;
+    bottom: 1px;
+}
+
+/** rating-camps */
+
+.rating-camps {
+    max-width: 960px;
+    
+    .rating-camps-item {
+        width: 300px;
+        float: left;
+        height: 180px;
+        background: rgba(0,0,0,0.05);
+        margin: 0 10px 20px 10px;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        border: 1px solid rgba(0,0,0,0.1);
+        
+        &:nth-child(3n+1) {
+            clear: both;
+        }
+    }
+    
+    .btn-edit {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    
+    .rating-camps-title {
+        display: block;
+        line-height: 16px;
+        padding: 10px 12px 5px 12px;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    
+    .rating-camps-location {
+        display: block;
+        line-height: 14px;
+        padding: 0 12px 10px 12px;
+        font-size: 14px;
+        overflow: hidden;
+    }
+    
+    .rating-camps-image {
+        height: 120px;
+        margin-top: 10px;
+        padding: 0 12px;
+        img {
+            max-height: 120px;
+        }
+    }
+}
+
+.main-images {
+    padding-bottom: 30px;
+    
+    .main-images-radio {
+        height: 120px;
+        padding-top: 50px;
+        width: 30px;
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .main-images-img {
+        display: block;
+        height: 120px;
+        margin-left: 40px;
+        overflow: hidden;
+        line-height: 120px;
+        font-size: 0;
+        
+        img {
+            max-height: 120px;
+            max-width: 90%;
+        }
+    }
+}
+
+.table-items {
+    padding: 2px 8px 0 0!important;
+}
+
+#placement_items {
+    .btn-add-placement {display: none;}
+    .btn-delete-placement {display: inline-block;}
+    
+    .camp-register-placements:first-child {
+        .btn-add-placement {display: inline-block;}
+        .btn-delete-placement {display: none;}
+    }
+}
+
+/** dropzone */
+.dropzone {
+    border: 2px dashed #3c8dbc!important;
+    min-height: 100px!important;
+    
+    &:hover {
+        border-style: solid!important;
+        background: rgba(0,0,0,0.07);
+    }
+
+    .dz-image {
+        img {
+            min-width: 100%;
+            height: 100%;
+        }
+    }
+}

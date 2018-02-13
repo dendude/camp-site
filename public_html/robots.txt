@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /auth/
+Disallow: /assets/
+Disallow: /cache/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /review-add.html
+Disallow: /order.html
+Host: https://camp-centr.ru
+Sitemap: https://camp-centr.ru/sitemap.xml

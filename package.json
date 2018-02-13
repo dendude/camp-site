@@ -1,0 +1,26 @@
+{
+  "name": "camp-centr.ru",
+  "version": "1.0.0",
+  "description": "Yii 2 Basic Project Template ============================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/worker.hot/camp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/worker.hot/camp/issues"
+  },
+  "homepage": "https://gitlab.com/worker.hot/camp#README"
+}

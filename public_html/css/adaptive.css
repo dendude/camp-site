@@ -1,0 +1,461 @@
+@media all and (max-width: 1200px) {
+  .layout,
+  .layout-container {
+    width: auto;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .layout-container {
+    padding: 0 15px;
+  }
+  .header .header-menu {
+    padding: 0 15px;
+  }
+  .header .header-menu .header-nav .header-nav-slider li a {
+    font-size: 18px;
+  }
+  .header .header-menu .header-nav .header-nav-slider li a.header-logo img {
+    max-height: 80px;
+  }
+  .header .header-menu .header-nav .header-nav-slider li a.header-phone-call {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .header .header-submenu {
+    padding: 0 15px;
+  }
+  h1,
+  .h1,
+  .index-title,
+  .index-subtitle {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .camp-selection {
+    margin: 0 64px;
+  }
+  .camp-selection .slider-selection li a .camp-orders-title {
+    font-family: SegoeUIRegular;
+    font-size: 16px;
+  }
+  .search-container {
+    padding: 0 15px 30px 15px;
+  }
+  .camp-search .camp-search-submit {
+    font-size: 20px;
+  }
+  .camp-search .camp-search-submit .fa {
+    font-size: 24px;
+  }
+  .camp-recommends {
+    padding: 0 15px;
+  }
+  .camp-recommends .camp-recommends__item .camp-recommends__photo {
+    height: 160px;
+  }
+  .camp-register-steps-container .camp-register-steps {
+    font-size: 14px;
+  }
+  .camp-register-forms h3 {
+    font-size: 20px;
+  }
+  .page-filters .camp-recommends {
+    padding: 0;
+  }
+  .page-with-filters-content {
+    margin-left: 20px;
+  }
+  .page-with-filters-content.fixed {
+    margin-left: 290px;
+  }
+  .camp-new-orders {
+    margin: 0 64px;
+  }
+  .camp-item .camp-block-order {
+    font-size: 14px;
+    padding: 6px 10px 8px 10px;
+  }
+  .selections-list {
+    justify-content: space-around;
+  }
+  .selections-list li {
+    margin: 0 10px 15px 10px;
+  }
+  .camp-new {
+    padding: 0;
+    margin: 0 64px;
+  }
+  .camp-container .camp-content {
+    margin-right: 20px;
+  }
+  .camp-container .camp-content .camp-about .camp-about-tabs li a {
+    min-width: 0;
+    padding: 0 8px;
+    font-size: 14px;
+  }
+  .camp-container .camp-order .camp-order-manager br {
+    display: none;
+  }
+  .camp-block-types li a {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 4px 8px 5px 8px;
+  }
+  .footer .footer__menu {
+    padding: 0 15px;
+  }
+  .footer .footer__info {
+    padding: 30px 15px 20px 15px;
+  }
+  .footer .footer__info .footer__blocks .footer__about .footer__socials .footer__socials-item {
+    width: 36px;
+    height: 36px;
+  }
+  .footer .footer__info .footer__blocks .footer__about,
+  .footer .footer__info .footer__blocks .footer__contacts {
+    margin-right: 0;
+    width: 40%;
+  }
+  .footer .footer__info .footer__blocks .footer__call {
+    width: 20%;
+  }
+  .footer .footer__info .footer__blocks .footer__call .footer__copy {
+    font-size: 13px;
+    line-height: 17px;
+  }
+}
+@media all and (max-width: 992px) {
+  .camp-search .camp-search-submit {
+    margin: 10px 4px 4px 4px;
+    line-height: 46px;
+  }
+  .camp-search .camp-search-submit .fa {
+    margin-right: 12px;
+  }
+  .m-t-md-20 {
+    margin-top: 20px;
+  }
+  h1,
+  .h1,
+  .index-title,
+  .index-subtitle {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .camp-recommends {
+    justify-content: space-around;
+  }
+  .camp-recommends .camp-recommends__item {
+    margin: 0 5px 25px 5px;
+    padding: 18px 20px 20px 20px;
+    min-width: 226px;
+  }
+  .camp-recommends .camp-recommends__item .camp-recommends__order {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+  }
+  .camp-recommends .camp-recommends__item .camp-recommends__photo {
+    height: 140px;
+  }
+  .camp-recommends .camp-recommends__item.item-one {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .header .header-menu {
+    height: 90px;
+  }
+  .header .header-menu .header-nav {
+    height: 90px;
+  }
+  .header .header-menu .header-nav .header-nav-slider {
+    justify-content: space-between;
+    height: 90px;
+  }
+  .header .header-menu .header-nav .header-nav-slider .header-nav__call {
+    margin-left: 20px;
+  }
+  .header .header-menu .header-nav .header-nav-slider > li ul {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 62px;
+  }
+  .camp-new-orders .slider-orders li .new-orders__item .new-orders__photo {
+    width: 140px;
+    height: 100px;
+  }
+  .camp-container .camp-content .camp-about .camp-about-content table th,
+  .camp-container .camp-content .camp-about .camp-about-content table th + td {
+    display: block;
+  }
+  .camp-container .camp-order-form {
+    width: 100%;
+    margin-right: 0;
+  }
+  .camp-container .camp-order-info {
+    display: none;
+  }
+  .footer .footer__info .footer__blocks .footer__about {
+    width: 50%;
+  }
+  .footer .footer__info .footer__blocks .footer__contacts {
+    width: 50%;
+    text-align: right;
+  }
+  .footer .footer__info .footer__blocks .footer__contacts .footer__phone {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .footer .footer__info .footer__blocks .footer__contacts .footer__pays {
+    justify-content: flex-end;
+  }
+  .footer .footer__info .footer__blocks .footer__contacts .footer__pays li {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+  .footer .footer__info .footer__blocks .footer__call {
+    display: none;
+  }
+  .footer .footer__menu {
+    padding: 6px 15px;
+  }
+  .footer .footer__menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer .footer__menu ul li a {
+    padding: 4px 10px;
+  }
+  .footer .footer__menu ul li a.footer__register-camp {
+    padding: 2px 5px;
+  }
+  .catalog-list {
+    flex-direction: column;
+  }
+  .catalog-list li {
+    width: auto;
+  }
+}
+@media all and (max-width: 768px) {
+  .camp-item .camp-block-camp-name {
+    font-size: 16px;
+    line-height: 18px;
+    max-height: 54px;
+    font-family: SegoeUIRegular;
+  }
+  .camp-item .camp-block-location {
+    font-size: 16px;
+    line-height: 20px;
+    max-height: 40px;
+    font-family: SegoeUIRegular;
+  }
+  .camp-container .camp-order {
+    min-width: 230px;
+  }
+  .page-with-filters .page-filters {
+    min-width: 220px;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-nav .header-nav__menu {
+    display: none;
+  }
+  .header-nav .header-nav-bar {
+    border: none;
+    box-shadow: none;
+    background: none;
+    font-size: 48px;
+    line-height: 48px;
+    color: #f3790c;
+    padding: 0;
+  }
+  .header .header-menu {
+    padding: 0;
+  }
+  .breadcrumb {
+    margin-top: 20px;
+  }
+  article {
+    padding-top: 10px;
+  }
+  article * {
+    max-width: 100%;
+  }
+  .header-nav-slider-menu {
+    height: 0;
+    transition: height 0.8s ease 0s;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    top: 90px;
+    left: 15px;
+    right: 15px;
+    z-index: 20;
+    background: #f8f8f8;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+  }
+  .header-nav-slider-menu li {
+    display: block;
+  }
+  .header-nav-slider-menu li a {
+    display: block;
+    padding: 8px 15px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+  .header-nav-slider-menu li a.active,
+  .header-nav-slider-menu li a:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #f3790c;
+  }
+  .header-nav-slider-menu li:first-child {
+    padding-top: 10px;
+  }
+  .header-nav-slider-menu li:last-child {
+    padding-bottom: 10px;
+  }
+  .header-nav-slider-menu.opened {
+    box-shadow: 0 3px 2px 3px rgba(0, 0, 0, 0.03);
+    height: auto;
+  }
+  .camp-search tr,
+  .camp-search td {
+    display: block;
+    width: 100%;
+  }
+  .camp-recommends .camp-recommends__item {
+    min-width: 270px;
+  }
+  .camp-new-orders {
+    display: none;
+  }
+  .footer .footer__info .footer__blocks .footer__about {
+    width: 100%;
+  }
+  .footer .footer__info .footer__blocks .footer__contacts {
+    display: none;
+  }
+}
+@media all and (max-width: 480px) {
+  .index-title.index-subtitle,
+  .index-subtitle.index-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header .header-menu .header-nav .header-nav-slider li a.header-phone-call {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .header .header-menu .header-nav .header-nav-slider li a.header-logo img {
+    max-width: 100px;
+  }
+  .camp-selection .slider-selection li a .camp-orders-title {
+    font-size: 14px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+  }
+  .header-nav .header-nav-bar {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .page-with-filters {
+    flex-direction: column;
+  }
+  .page-with-filters .page-with-filters-content {
+    margin-left: 0;
+    border: none;
+    padding: 0 0 20px 0;
+    max-width: 100%;
+  }
+  .page-with-filters .page-filters {
+    display: none;
+  }
+  .camp-container {
+    padding-top: 20px;
+  }
+  .camp-container .camp-content {
+    max-width: 100%;
+  }
+  .camp-container .camp-order {
+    width: 100%;
+  }
+  .catalog-list > li > ul {
+    padding-left: 10px;
+  }
+  .catalog-list > li > ul > li > ul {
+    padding-left: 10px;
+  }
+  .bonuses .bonuses-item {
+    width: 100%;
+  }
+  .news-sections .new-item {
+    width: 100%;
+  }
+  .news-sections .new-item .new-content .new-title {
+    font-size: 16px;
+    line-height: 18px;
+    max-height: 36px;
+    height: auto;
+  }
+  .news-sections .new-item .new-content .new-about {
+    max-height: 36px;
+    text-align: left;
+  }
+  .news-sections .new-item .new-content .new-info {
+    flex-direction: column;
+  }
+  .news-sections .new-item .new-content .new-info .new-link {
+    text-align: left;
+    margin-top: 5px;
+  }
+  .camp-container .camp-content {
+    margin-right: 0;
+  }
+  .camp-container .camp-content .camp-about .camp-about-tabs {
+    flex-direction: column;
+  }
+  .camp-container .camp-content .camp-about .camp-about-tabs li {
+    width: 100%;
+    border-radius: 0;
+  }
+  .camp-container .camp-content .camp-about .camp-about-tabs li:first-child {
+    border-radius: 8px 8px 0 0;
+  }
+  .camp-container .camp-content .camp-about .camp-about-content {
+    border-radius: 0;
+  }
+  .camp-container .camp-content .camp-media-list {
+    justify-content: space-around;
+  }
+  .camp-container .camp-content .camp-media-list li {
+    margin: 0 5px 15px 5px;
+  }
+  .camp-found-count {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  h1,
+  .h1,
+  .index-title,
+  .index-subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .camp-item {
+    padding: 5px 7px;
+  }
+  .text-xs-right {
+    text-align: right;
+  }
+}

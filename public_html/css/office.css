@@ -1,0 +1,73 @@
+.table-list {
+  background: #fafafa;
+}
+.office-title {
+  font-size: 26px;
+  line-height: 40px;
+  margin: 0 0 4px 0;
+  float: left;
+}
+.stars {
+  color: #f29f1e;
+}
+.grid-summary {
+  text-align: right;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.office-menu-type {
+  margin: 20px 0;
+  color: #C30;
+}
+.btn-office {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 10px 14px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.btn-office:hover {
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.11);
+}
+.office-menu {
+  display: block;
+}
+.office-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.office-menu ul li {
+  display: block;
+  color: #069;
+  margin-bottom: 4px;
+}
+.office-menu ul li:last-child {
+  margin-bottom: 0;
+}
+.office-menu ul li a {
+  display: block;
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.office-menu ul li a .fa {
+  width: 34px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  top: 1px;
+}
+.office-menu ul li a:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+.office-curs {
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding-left: 11px;
+}

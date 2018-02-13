@@ -1,0 +1,39 @@
+@font-face {
+  font-family: ALSRubl;
+  src: url('/fonts/RUB/rouble.ttf');
+}
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot");
+  src: url("/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.woff") format("woff"), url("/fonts/SegoeUI/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUIBold";
+  src: url("/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot");
+  src: url("/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.woff") format("woff"), url("/fonts/SegoeUI/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUIItalic";
+  src: url("/fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot");
+  src: url("/fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.woff") format("woff"), url("/fonts/SegoeUI/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUILight";
+  src: url("/fonts/SegoeUI/SegoeUILight/SegoeUILight.eot");
+  src: url("/fonts/SegoeUI/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI/SegoeUILight/SegoeUILight.woff") format("woff"), url("/fonts/SegoeUI/SegoeUILight/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUISemiBold";
+  src: url("/fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot");
+  src: url("/fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"), url("/fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"), url("/fonts/SegoeUI/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
